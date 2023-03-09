@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	line-height: 1.5;
+	font-family: monospace;
+}
+
+.fetch-div {
+	padding: 6px 10px 10px;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+table {
+	border-spacing: 0 !important;
+	border-width: 1px;
+	width: 100%;
+}
+
+table tr:first-child td {
+	padding: 6px;
+}
+
+table td {
+	vertical-align: top;
+	text-align: center;
+	border-bottom: 1px solid white !important;
+}
+
+.rateTitle {
+	display: none;
+}
+
+.rateDetails {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+table tr .rateDetails:nth-child(even) div {
+	background: #00000008;
+	border-right: 1px solid #ffffff;
+}
+
+table tr .rateDetails:last-child div {
+	border-bottom: 0 !important;
+	border-right: 0 !important;
+}
+
+table tr .rateDetails div:last-child {
+	border-right: 0 !important;
+}
+
+.rateDetails div {
+	flex: 1;
+}
+
+table td:first-child {
+	width: 0;
+	padding: 10px;
+	border-right: 1px solid #00000008;
+}
+
+table td:last-child {
+	border-right: 0 !important;
+}
+
+table td img {
+	width: 60px;
+}
+
+table td img {
+	width: 60px;
+}
+
+table tr:nth-child(even) {
+	background: #eee;
+}
+
+table a {
+	color: black;
+	text-decoration: none;
+}
